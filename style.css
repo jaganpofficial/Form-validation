@@ -86,6 +86,17 @@ form button:hover {background-color: #477faa}
     color: red;
 }
 
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .container form {
+        padding: 30px 20px 10px;
+    }
+
+    form button {
+        padding: 10px 15px;
+    }
+}
 .input-group span i {
     color: seagreen;
 }
